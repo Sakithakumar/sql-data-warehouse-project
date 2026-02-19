@@ -92,7 +92,7 @@ BEGIN
 
 		PRINT 'Inserting Data into:bronze.erp_CUST_AZ12'
 		BULK INSERT bronze.erp_CUST_AZ12
-		FROM 'C:\Users\prany\Desktop\SQL_MAT\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
+		FROM 'C:\Users\prany\Desktop\SQL_MAT\sql-data-warehouse-project\datasets\source_erp\CUST_AZ12.csv'
 		WITH(
 			FIRSTROW=2,
 			FIELDTERMINATOR=',',
@@ -110,7 +110,7 @@ BEGIN
 
 		PRINT 'Inserting Data into:bronze.erp_LOC_A101'
 		BULK INSERT bronze.erp_LOC_A101
-		FROM 'C:\Users\prany\Desktop\SQL_MAT\sql-data-warehouse-project\datasets\source_erp\CUST_AZ12.csv'
+		FROM 'C:\Users\prany\Desktop\SQL_MAT\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
 		WITH(
 			FIRSTROW=2,
 			FIELDTERMINATOR=',',
